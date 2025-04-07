@@ -9,6 +9,10 @@ const EmployeesAddForm = () => {
                 <input type="text"
                     className="form-control new post-label"
                     placeholder="Как его зовут?"/>
+                <input type="number"
+                    className="form-control new-post-label"
+                    placeholder="З/П в $?" />
+                    
                 <button type="submit"
                         className="btn btn-outline-light">Добавить</button>
             </form>
